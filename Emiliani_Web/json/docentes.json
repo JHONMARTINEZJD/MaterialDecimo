@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "María Pérez",
+    "imagen": "https://via.placeholder.com/400x250",
+    "perfil": "/docentes/perfiles/perfil_maria.html",
+    "descripcion": "Líder del club de robótica y apasionada por la ciencia."
+  },
+  {
+    "nombre": "Juan Torres",
+    "imagen": "https://via.placeholder.com/400x250",
+    "perfil": "perfil_juan.html",
+    "descripcion": "Atleta destacado y voluntario en proyectos sociales."
+  },
+  {
+    "nombre": "Lucía Gómez",
+    "imagen": "https://via.placeholder.com/400x250",
+    "perfil": "perfil_lucia.html",
+    "descripcion": "Ganadora del concurso nacional de oratoria."
+  },
+  {
+    "nombre": "Andrés Rivas",
+    "imagen": "https://via.placeholder.com/400x250",
+    "perfil": "perfil_andres.html",
+    "descripcion": "Entusiasta de las matemáticas y programador aficionado."
+  }
+]
