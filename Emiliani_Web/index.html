@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <!-- Metadatos básicos para el navegador -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Título que aparece en la pestaña del navegador -->
         <title>Institución Educativa San Jerónimo Emiliani</title>
+        
+        <!-- Enlace a Bootstrap CSS para estilos prediseñados y responsivos -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
             rel="stylesheet" />
+        
+        <!-- Enlace al archivo CSS externo personalizado -->
         <link href="/css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Navbar -->
+        <!-- Navbar: barra de navegación fija en la parte superior -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
             <div class="container-fluid">
+                <!-- Logo o nombre del colegio con enlace (puede redirigir a home) -->
                 <a class="navbar-brand" href="#">IE San Jerónimo Emiliani</a>
+                
+                <!-- Botón para mostrar/ocultar el menú en dispositivos móviles -->
                 <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse" data-bs-target="#navbarContenido">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
+                <!-- Contenido colapsable del menú -->
                 <div class="collapse navbar-collapse" id="navbarContenido">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto"><!-- ms-auto para alinear a la derecha -->
                         <li class="nav-item dropdown">
+                            <!-- Enlace que activa el dropdown para "Comunidad" -->
                             <a class="nav-link dropdown-toggle" href="#"
                                 id="dropdownComunidad" role="button"
                                 data-bs-toggle="dropdown">
                                 Comunidad
                             </a>
+                            <!-- Opciones del menú desplegable -->
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li><a class="dropdown-item"
                                         href="/estudiantes/estudiantes.html">Estudiantes</a></li>
@@ -38,29 +52,34 @@
             </div>
         </nav>
 
-        <!-- Hero Banner -->
+        <!-- Hero Banner: sección principal de bienvenida con fondo claro -->
         <section class="bg-light py-5 text-center">
             <div class="container">
+                <!-- Título principal grande -->
                 <h1 class="display-4 fw-bold">Bienvenidos a la Institución
                     Educativa San Jerónimo Emiliani</h1>
+                <!-- Subtítulo con texto más pequeño y en color gris -->
                 <p class="lead text-muted">Una comunidad educativa comprometida
                     con la excelencia, los valores y la formación integral.</p>
             </div>
         </section>
 
-        <!-- Imagen destacada -->
+        <!-- Imagen destacada del colegio centrada -->
         <div class="container my-4">
             <div class="text-center">
+                <!-- Imagen con estilos responsivos, borde redondeado y sombra -->
                 <img src="/img/colegio.jpg" alt="Fachada del colegio"
                     class="img-fluid rounded shadow-sm"
                     style="max-height: 500px;" />
+                <!-- Pie de foto en texto pequeño y gris -->
                 <p class="mt-3 text-muted">Sede principal – Tunja, Boyacá</p>
             </div>
         </div>
 
-        <!-- Misión y Visión -->
+        <!-- Sección con Misión y Visión en tarjetas, con sombra y sin borde -->
         <section class="container my-5">
             <div class="row text-center">
+                <!-- Tarjeta Misión -->
                 <div class="col-md-6 mb-4">
                     <div class="card border-0 shadow-sm h-100">
                         <div class="card-body">
@@ -72,6 +91,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Tarjeta Visión -->
                 <div class="col-md-6 mb-4">
                     <div class="card border-0 shadow-sm h-100">
                         <div class="card-body">
@@ -86,14 +106,16 @@
             </div>
         </section>
 
-        <!-- Footer -->
+        <!-- Footer: pie de página con fondo azul oscuro y texto blanco -->
         <footer class="bg-primary text-white py-3 mt-5">
             <div class="container text-center">
+                <!-- Texto pequeño centrado -->
                 <small>&copy; 2025 Institución Educativa San Jerónimo Emiliani.
                     Todos los derechos reservados.</small>
             </div>
         </footer>
 
+        <!-- Script de Bootstrap: necesario para la funcionalidad de componentes como el menú desplegable -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
